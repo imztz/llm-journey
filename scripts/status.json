@@ -1,0 +1,13 @@
+{
+  "start": "2026-08-21",
+  "end": "2028-02-29",
+  "override_status": null,
+  "phases": [
+    { "name": "Phase 0 · 启动冲刺", "from": "2026-08-21", "to": "2026-09-06", "color": "orange" },
+    { "name": "Phase 1 · 实操筑基", "from": "2026-09-07", "to": "2027-02-07", "color": "blue" },
+    { "name": "Phase 2 · 可验证环境与 Agentic RL", "from": "2027-02-08", "to": "2027-07-31", "color": "purple" },
+    { "name": "Phase 3 · 自进化与开源", "from": "2027-08-01", "to": "2027-11-30", "color": "blueviolet" },
+    { "name": "Phase 4 · 成果固化", "from": "2027-12-01", "to": "2028-01-31", "color": "teal" },
+    { "name": "Phase 5 · 求职冲刺", "from": "2028-02-01", "to": "2028-02-29", "color": "red" }
+  ]
+}

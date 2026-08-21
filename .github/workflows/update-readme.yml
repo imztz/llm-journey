@@ -1,0 +1,47 @@
+name: Update README
+
+# 每日更新 README 的动态片段(Status 徽章 / Day 计数器 / 进度徽章)
+# 机制说明见 README「⚡ README 自动化机制」一节
+
+on:
+  schedule:
+    - cron: "23 16 * * *" # UTC 16:23 = 北京时间 00:23
+  workflow_dispatch: # 支持手动触发
+  push:
+    branches: [main]
+    paths-ignore:
+      - "README.md" # 脚本自己的提交带 [skip ci],这里再防一层循环
+
+permissions:
+  contents: write # 允许 GITHUB_TOKEN 提交 README
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update dynamic README blocks
+        run: python scripts/update_readme.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 内置 token,无需任何密钥配置
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README 未变化,跳过提交"
+          else
+            git commit -m "chore: auto-update README (status/day/progress) [skip ci]"
+            git push
+          fi
