@@ -18,7 +18,7 @@
 
 <!-- AUTO:PROGRESS:START -->
 [![README Automation](https://github.com/imztz/llm-journey/actions/workflows/update-readme.yml/badge.svg)](https://github.com/imztz/llm-journey/actions/workflows/update-readme.yml)
-[![Commits](https://img.shields.io/badge/Commits-8-1e88e5?style=flat-square)](https://github.com/imztz/llm-journey/commits)
+[![Commits](https://img.shields.io/badge/Commits-10-1e88e5?style=flat-square)](https://github.com/imztz/llm-journey/commits)
 <!-- AUTO:PROGRESS:END -->
 
 *先跑起来,再谈懂。*
