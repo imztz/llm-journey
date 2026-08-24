@@ -1,0 +1,31 @@
+# ===== 个人规划文档(不入库) =====
+plan/
+
+# ===== 本地模型权重(942MB,绝不能进 git) =====
+week1/day1/experiments/Qwen2.5-0.5B-Instruct/
+
+# 通用模型权重格式:以后下载任何模型都自动挡住
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.onnx
+
+# ===== Python / Jupyter =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== ML 训练产物 =====
+runs/
+wandb/
+outputs/
+checkpoints/
+
+# ===== 数据与环境 =====
+data/
+.env
+
+# ===== macOS =====
+.DS_Store
