@@ -18,7 +18,7 @@
 
 <!-- AUTO:PROGRESS:START -->
 [![README Automation](https://github.com/imztz/llm-journey/actions/workflows/update-readme.yml/badge.svg)](https://github.com/imztz/llm-journey/actions/workflows/update-readme.yml)
-[![Commits](https://img.shields.io/badge/Commits-11-1e88e5?style=flat-square)](https://github.com/imztz/llm-journey/commits)
+[![Commits](https://img.shields.io/badge/Commits-12-1e88e5?style=flat-square)](https://github.com/imztz/llm-journey/commits)
 <!-- AUTO:PROGRESS:END -->
 
 *先跑起来,再谈懂。*
@@ -332,7 +332,7 @@ llm-journey/
 *Roadmap · Experiments · Notes · Weekly Reports — all in public.*
 
 <!-- AUTO:DAY:START -->
-**2026.08 → 2028.02 · Day 5 of 557**
+**2026.08 → 2028.02 · Day 6 of 557**
 <!-- AUTO:DAY:END -->
 
 </div>
