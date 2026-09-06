@@ -10,7 +10,7 @@
 [![Journey](https://img.shields.io/badge/Journey-18%20months-8A2BE2?style=flat-square)]()
 [![Started](https://img.shields.io/badge/%F0%9F%9A%80%20Started-2026--08--21-brightgreen?style=flat-square)]()
 <!-- AUTO:STATUS:START -->
-[![Status](https://img.shields.io/badge/Status-Phase%200%20%C2%B7%20%E5%90%AF%E5%8A%A8%E5%86%B2%E5%88%BA-orange?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Phase%201%20%C2%B7%20%E5%AE%9E%E6%93%8D%E7%AD%91%E5%9F%BA-blue?style=flat-square)]()
 <!-- AUTO:STATUS:END -->
 [![Time Budget](https://img.shields.io/badge/%E6%AF%8F%E5%91%A8%E6%8A%95%E5%85%A5-20h-blue?style=flat-square)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4?style=flat-square)]()
@@ -18,7 +18,7 @@
 
 <!-- AUTO:PROGRESS:START -->
 [![README Automation](https://github.com/imztz/llm-journey/actions/workflows/update-readme.yml/badge.svg)](https://github.com/imztz/llm-journey/actions/workflows/update-readme.yml)
-[![Commits](https://img.shields.io/badge/Commits-23-1e88e5?style=flat-square)](https://github.com/imztz/llm-journey/commits)
+[![Commits](https://img.shields.io/badge/Commits-24-1e88e5?style=flat-square)](https://github.com/imztz/llm-journey/commits)
 <!-- AUTO:PROGRESS:END -->
 
 *先跑起来,再谈懂。*
@@ -332,7 +332,7 @@ llm-journey/
 *Roadmap · Experiments · Notes · Weekly Reports — all in public.*
 
 <!-- AUTO:DAY:START -->
-**2026.08 → 2028.02 · Day 17 of 557**
+**2026.08 → 2028.02 · Day 18 of 557**
 <!-- AUTO:DAY:END -->
 
 </div>
